@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>Tabela com Botões</title> 
+  <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #ff00ff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <table> 
+   <thead> 
+    <tr> 
+     <th>Descrição</th> 
+     <th>Botão</th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td>Tabela Simples com Cabeçalho e Rodapé</td> 
+     <td><button onclick="window.location.href='https://www.espn.com.br/rugby/fixtures'">Ver Tabela</button></td> 
+    </tr> 
+    <tr> 
+     <td>Tabela com Colunas e Linhas Mescladas</td> 
+     <td><button onclick="window.location.href='https://images.app.goo.gl/xo2mAbgKEhgSNYNM9'">Ver Tabela</button></td> 
+    </tr> 
+    <tr> 
+     <td>Google</td> 
+     <td><button onclick="window.location.href='https://www.google.com'">Ir para Google</button></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body>
+</html>
